@@ -1,0 +1,205 @@
+.App {
+  text-align: center;
+}
+
+
+.question-card{
+  margin: 0 auto;
+  background:rgba(180, 175, 175,0.3);
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50,50,93,0.25) 0px 30px 60px -12px,rgba(0,0,0,0.3) 0px 18px 36px -10px ;
+width: 80%;
+height: auto;
+}
+
+ul{
+  list-style: none;
+}
+.top{
+  margin-top: 50px;
+}
+li{
+  background-color: darkgray;
+  padding: 16px;
+  border:3px solid white ;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top:8px;
+}
+
+.question-text{
+   color: rgb(2, 2, 75);
+   font-size: 24px;
+}
+
+.final-results{
+  margin: 0 auto;
+  background:gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50,50,93,0.25) 0px 30px 60px -12px,rgba(0,0,0,0.3) 0px 18px 36px -10px ;
+width: 50%;
+height: auto;
+}
+
+ .restart{
+  background-color:blue;
+  border: none;
+  color: white;
+padding: 16px 24px;
+text-align: center;
+text-decoration:none;
+display: inline-block;
+font-size: 16px;
+font-weight: bold;
+border-radius: 24px;
+ }
+
+ #scoreOfTotalred{
+  color: red;
+}
+
+#scoreOfTotalgreen {
+  color: green;
+}
+
+
+ @media screen and (max-width:426px) {
+  #h1#quiz{
+text-align: center;
+  }
+
+  .question-text {
+    font-size: 15px;
+}
+
+h2#questionNum {
+  font-size: 19px;
+}
+
+h2.currentscore {
+  font-size: 18px;
+}
+
+h1.finalresultson {
+  font-size: 18px;
+}
+
+h2.scoreOfTotal {
+  font-size: 18px;
+}
+
+.question-card {
+  margin-left: 10px;
+}
+h1#quiz {
+  margin-left: -52px;
+}
+
+ }
+ @media screen and (max-width:376px){
+ label.form-check-label {
+  font-size: 13px;
+}
+.question-text {
+  font-size: 14px;
+}
+
+h2.currentscore {
+  font-size: 14px;
+}
+h2.scoreOfTotal {
+  font-size: 10px;
+}
+
+h1.finalresultson {
+  font-size: 14px;
+}
+
+button#restart {
+  font-size: 13px;
+}
+
+.form-check .form-check-input {
+  float: left;
+  margin-left: -1.6em;
+  margin-top: 8.5px;
+  font-size: 11px;
+}
+body{
+  margin-left: -20px;
+}
+div#container-body {
+  margin-left: -10px;
+}
+h1#quiz {
+  margin-left: -10px;
+}
+.question-card {
+  margin-left: 30px;
+}
+button#previous {
+  font-size: 12px;
+}
+button#next {
+  font-size: 12px;
+}
+ }
+
+ @media screen and (max-width: 320px) {
+  h2.currentscore {
+      font-size: 11px;
+  }
+
+  h1.finalresultson {
+    font-size: 11px;
+}
+
+h2.scoreOfTotal {
+  font-size: 8px;
+}
+
+button#restart {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+h2#questionNum {
+  font-size: 12px;
+}
+.question-text {
+  font-size: 11px;
+}
+
+label.form-check-label {
+  font-size: 11px;
+}
+
+.form-check .form-check-input {
+  float: left;
+  margin-left: -1.5em;
+  margin-top: 8.8px;
+  font-size: 11px;
+}
+body{
+  margin-left: -20px;
+}
+div#container-body {
+  margin-left: -10px;
+}
+h1#quiz {
+  margin-left: -10px;
+}
+.question-card {
+  margin-left: 25px;
+}
+button#previous {
+  font-size: 10px;
+}
+button#next {
+  font-size: 10px;
+}
+}
